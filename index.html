@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Optical Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preload" as="image" href="/Image/img2.jpg">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo">
+                <div class="logo-container">
+                    <img src="/Image/logo.jpg" alt="Optical Store Logo" class="logo-img">
+                </div>
+                <div class="hero-logo">
+                    <img src="/Image/img2.jpg" alt="Hero Logo" class="hero-img">
+                </div>
+            </div>
+            
+            <div class="nav-wrapper">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#collections" class="nav-link">Collections <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#luxury">Luxury Frames</a>
+                            <a href="#designer">Designer Collection</a>
+                            <a href="#sports">Sports Eyewear</a>
+                        </div>
+                    </li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <div class="nav-social">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                    <button class="appointment-btn">Book Appointment</button>
+                </div>
+            </div>
+            
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>See the World Clearly</h1>
+                    <p>Discover our premium collection of eyewear</p>
+                </div>
+                <div class="hero-image">
+                    <img src="/Image/img1.jpg" alt="Hero Image">
+                </div>
+            </div>
+        </section>
+
+        <section id="trending" class="trending-section">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Trending Now</h2>
+                <p class="subtitle">Discover Our Latest Arrivals</p>
+            </div>
+            <div class="trending-slider">
+                <div class="slide" data-aos="fade-right">
+                    <div class="product-showcase">
+                        <img src="/Image/img1.jpg" alt="Luxury Frames">
+                        <div class="product-info">
+                            <h3>Celestial Collection</h3>
+                            <p class="price">$399</p>
+                            <button class="btn-explore">Explore</button>
+                        </div>
+                        <div class="product-hover">
+                            <span class="quick-view">Quick View</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more slides as needed -->
+            </div>
+        </section>
+
+        <section id="collections">
+            <h2>Featured Collections</h2>
+            <div class="glasses-grid">
+                <div class="glasses-card">
+                    <img src="/Image/img1.jpg" alt="Glasses">
+                    <h3>Designer Frames</h3>
+                    <p>Starting from $199</p>
+                </div>
+                
+                <!-- Adding new model cards -->
+                <div class="glasses-card">
+                    <img src="/Image/img1.jpg" alt="Luxury Sunglasses">
+                    <h3>Luxury Sunglasses</h3>
+                    <p>Starting from $299</p>
+                    <span class="badge">New</span>
+                </div>
+                
+                <div class="glasses-card">
+                    <img src="/Image/img1.jpg" alt="Sport Eyewear">
+                    <h3>Sport Eyewear</h3>
+                    <p>Starting from $159</p>
+                </div>
+                
+                <div class="glasses-card">
+                    <img src="/Image/img1.jpg" alt="Classic Collection">
+                    <h3>Classic Collection</h3>
+                    <p>Starting from $179</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Adding Features Section -->
+        <section id="features" class="features-section">
+            <h2>Why Choose Us</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-glasses"></i>
+                    <h3>Wide Selection</h3>
+                    <p>Browse through hundreds of designer frames and latest styles</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-medal"></i>
+                    <h3>Quality Guarantee</h3>
+                    <p>All our products come with 2-year warranty and satisfaction guarantee</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-user-md"></i>
+                    <h3>Expert Consultation</h3>
+                    <p>Free consultation with our experienced optometrists</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Adding Services Section -->
+        <section id="services" class="services-section">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="image-container">
+                        <img 
+                            src="/Image/img1.jpg" 
+                            alt="Eye Examination" 
+                            loading="lazy"
+                            width="800"
+                            height="533"
+                        >
+                    </div>
+                    <div class="service-content">
+                        <h3>Eye Examination</h3>
+                        <p>Comprehensive eye tests using latest technology</p>
+                        <button class="btn-primary">Book Now</button>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="image-container">
+                        <img src="/Image/img2.jpg" alt="Lens Fitting" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h3>Custom Fitting</h3>
+                        <p>Professional lens fitting and frame adjustments</p>
+                        <button class="btn-primary">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Adding Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2>Get in Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Visit Our Store</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Vision Street, Eyewear City</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@opticalstore.com</p>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Adding Premium Showcase Section -->
+        <section id="premium-showcase" class="premium-section">
+            <div class="pattern-overlay"></div>
+            <h2>Premium Collections</h2>
+            <div class="premium-container">
+                <div class="premium-card">
+                    <div class="card-overlay">
+                        <h3>Luxury Series</h3>
+                        <p class="price">$499</p>
+                        <div class="color-options">
+                            <span class="color-dot gold"></span>
+                            <span class="color-dot silver"></span>
+                            <span class="color-dot rose-gold"></span>
+                        </div>
+                    </div>
+                    <img src="Image/img2.jpg" alt="Luxury Eyewear">
+                </div>
+
+                <div class="premium-features">
+                    <div class="feature-item">
+                        <i class="fas fa-gem"></i>
+                        <div class="feature-text">
+                            <h4>Premium Materials</h4>
+                            <p>Titanium frames with gold plating</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <div class="feature-text">
+                            <h4>Lifetime Warranty</h4>
+                            <p>Complete coverage and support</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-sync"></i>
+                        <div class="feature-text">
+                            <h4>30-Day Trial</h4>
+                            <p>Risk-free comfort guarantee</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Adding Interactive Showcase -->
+        <section id="virtual-try-on" class="try-on-section">
+            <h2>Virtual Try-On Experience</h2>
+            <div class="try-on-container">
+                <div class="try-on-preview">
+                    <img src="Image/img1.jpg" alt="Virtual Try-On">
+                    <button class="btn-try-on">Try Now</button>
+                </div>
+                <div class="try-on-steps">
+                    <div class="step">
+                        <span class="step-number">1</span>
+                        <h4>Upload Your Photo</h4>
+                        <p>Use your webcam or upload a photo</p>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">2</span>
+                        <h4>Choose Frames</h4>
+                        <p>Browse our collection virtually</p>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">3</span>
+                        <h4>See the Result</h4>
+                        <p>View how frames look on you</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Add this new section after the hero section -->
+        <section id="experience" class="experience-section">
+            <div class="pattern-overlay"></div>
+            <div class="experience-container">
+                <div class="experience-content" data-aos="fade-right">
+                    <h2>Luxury Shopping Experience</h2>
+                    <p class="highlight-text">Personalized Styling Session</p>
+                    <ul class="experience-features">
+                        <li><i class="fas fa-check-circle"></i> Private Consultation Room</li>
+                        <li><i class="fas fa-check-circle"></i> Digital Style Analysis</li>
+                        <li><i class="fas fa-check-circle"></i> Expert Style Advisors</li>
+                    </ul>
+                    <button class="btn-book">Book Appointment</button>
+                </div>
+                <div class="experience-image" data-aos="fade-left">
+                    <img src="/Image/img2.jpg" alt="Luxury Experience">
+                    <div class="floating-card">
+                        <div class="card-content">
+                            <span class="rating">4.9</span>
+                            <p>Customer Rating</p>
+                            <div class="stars">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <img src="/Image/logo.jpg" alt="Optical Store Logo">
+                    </div>
+                    <p class="footer-about">Experience premium eyewear and professional eye care services at our state-of-the-art optical store.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                            <span class="tooltip">Facebook</span>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                            <span class="tooltip">Instagram</span>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                            <span class="tooltip">Twitter</span>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span class="tooltip">LinkedIn</span>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                            <span class="tooltip">YouTube</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#collections">Collections</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#eye-exam">Eye Examination</a></li>
+                        <li><a href="#fitting">Frame Fitting</a></li>
+                        <li><a href="#repairs">Repairs & Adjustments</a></li>
+                        <li><a href="#contact-lenses">Contact Lenses</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Vision Street, Eyewear City</li>
+                        <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@opticalstore.com</li>
+                        <li><i class="fas fa-clock"></i> Mon-Sat: 9:00 AM - 6:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2024 Modern Optical Store. All rights reserved.</p>
+                </div>
+                <div class="footer-extra-links">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Service</a>
+                    <a href="#sitemap">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+    <script>
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navWrapper = document.querySelector('.nav-wrapper');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenuBtn.classList.toggle('active');
+            navWrapper.classList.toggle('active');
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!navWrapper.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
+                mobileMenuBtn.classList.remove('active');
+                navWrapper.classList.remove('active');
+            }
+        });
+    </script>
+    <script>
+        const dropdowns = document.querySelectorAll('.dropdown');
+        
+        dropdowns.forEach(dropdown => {
+            const link = dropdown.querySelector('.nav-link');
+            link.addEventListener('click', (e) => {
+                if (window.innerWidth <= 968) {
+                    e.preventDefault();
+                    dropdown.classList.toggle('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html> 
